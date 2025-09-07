@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <title>RTBT</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- cache-buster zodat je browser de nieuwe CSS écht laadt -->
+  <link rel="stylesheet" href="style.css?v=2" />
 </head>
-<body>
+<body style="background-color:#294d41;"> <!-- inline fallback, voor als CSS niet laadt -->
   <div class="logo">
-    <img src="image.png" width="500" alt="RTBT Logo" />
+    <img src="image.png" alt="RTBT Logo" />
   </div>
 
   <div class="footer">
