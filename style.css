@@ -1,31 +1,24 @@
 body {
-    background-color: #294d41;
-    margin: 0;
-    font-family: Verdana, sans-serif;
+  background-color: #294d41;
+  margin: 0;
 }
 
 .logo {
-    margin: 5% auto 0;
-    width: 500px;
-    text-align: center;
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
+  margin: 5% auto 0;
+  width: 500px;
+  text-align: center;
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0; 
-    width: 100%;
-    text-align: center;
-    padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-.footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
 }
